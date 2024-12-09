@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+  background-image: url("bg2.jpg");
+}
+
+ /* ปรับรูปภาพ */
+ .profile-pic {
+        width: 250px;
+        height: auto;
+        border-radius: 40%;
+        /* ทำให้รูปภาพเป็นวงกลม */
+        margin: auto;
+        display: block;
+        border: 3px solid #dddddd00;
+        /* เพิ่มเส้นขอบสีเทาอ่อน */
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        /* เพิ่มเงาเล็กน้อย */
+         /* ปรับรูปภาพ */
+ }
+ .profile-pic2 {
+        width: 250px;
+        height: auto;
+        border-radius: 29%;
+        /* ทำให้รูปภาพเป็นวงกลม */
+        margin: auto;
+        display: block;
+        border: 3px solid #dddddd00;
+        /* เพิ่มเส้นขอบสีเทาอ่อน */
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        /* เพิ่มเงาเล็กน้อย */
+    }
+
+.container {
+        width: 55%;
+        margin: auto;
+		border-radius: 5%;
+        background: rgba(172, 179, 193, 0.8);
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(8, 67, 195, 0.877);
+        margin-top: 50px;
+}
+
+.container2 {
+        width: 98%;
+        margin: auto;
+		border-radius: 1%;
+        background: rgba(154, 154, 155, 0.8);
+        padding: 5px;
+        box-shadow: 0 0 10px rgba(8, 67, 195, 0.877);
+        margin-top: 50px;
+
+}
+        
+.container3 {
+        width: 20%;
+        margin: auto;
+		border-radius: 5%;
+        background: rgba(154, 154, 155, 0.8);
+        padding: 2px;
+        box-shadow: 0 0 10px rgba(8, 67, 195, 0.877);
+        margin-top: 20px;
+
+		
+}
+
+	h1,
+    h2,
+    h3 {
+        font-family: "Itim";
+        font-weight: 500;
+        text-align: center;
+	}
+
+ 		p {
+        	font-family: "Itim";
+       	 font-weight: 400;
+        	/* Light */
+       	 text-align: center;
+        color: #000000;
+		}
+
+		.section {
+        margin-bottom: 20px;
+    }
+
+    .section h3 {
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 5px;
+    }
+
+    .section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .section ul li {
+        font-family: "Itim";
+        font-weight: 400;
+        /* Light */
+        margin-bottom: 10px;
+    }
+
+    button {
+        font-family: "Itim";
+        font-weight: 500;
+        /* Light */
+        background-color: #1558d3;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+  
+		
